@@ -36,3 +36,10 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore TypeScript build info caches
+*.tsbuildinfo

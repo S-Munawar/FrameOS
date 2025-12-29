@@ -23,6 +23,10 @@
     },
     "clean": {
       "cache": false
+    },
+    "types": {
+      "dependsOn": ["^types"],
+      "outputs": ["dist/**/*.d.ts"]
     }
   }
 }
