@@ -1,0 +1,21 @@
+{
+  "name": "@frameos/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'API app placeholder'",
+    "build": "echo 'API app placeholder'",
+    "test": "echo 'API app placeholder'",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist .turbo"
+  },
+  "dependencies": {
+    "@frameos/runtime": "workspace:*",
+    "@frameos/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@frameos/config": "workspace:*",
+    "typescript": "^5.3.0"
+  }
+}
